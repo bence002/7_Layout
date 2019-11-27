@@ -1,0 +1,24 @@
+body, h1, header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    background-color: goldenrod;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* These values like "top, left, right"  calculates the whole thing from that position. So e.g. "right: 0;" here is calculated 0 from the right. */
+}
+
+.bagel {
+    position: fixed;
+    right: 5px;
+    top: 4px;
+}
+
+h1 {
+    text-align: center;
+}

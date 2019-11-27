@@ -1,0 +1,22 @@
+body, h1, header {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-gap: 40px;
+}
+
+.grid-container div {
+    /* all the divs that have grid-containers in it */
+    background-color: mediumseagreen;
+}
+
+.last {
+    grid-column: 4;
+    /* This is how you put the box number 6 to the 4th column in the whole grid system. It's the same as grid-column-start grid-column-end or and similar */
+}

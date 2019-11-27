@@ -1,0 +1,13 @@
+body, h1, header {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Container should be set to 100vh, otherwise the container will be only as high as the text. */
+}
